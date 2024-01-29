@@ -1,0 +1,45 @@
+{
+  "name": "invoice_software",
+  "version": "1.0.0",
+  "description": "An invoicing web application",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajibade3210/invoice_software.git"
+  },
+  "keywords": [
+    "Invoice",
+    "MERN",
+    "ReduxToolKit"
+  ],
+  "author": "Olaoluwa Ajibade",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajibade3210/invoice_software/issues"
+  },
+  "homepage": "https://github.com/ajibade3210/invoice_software#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "chalk": "^5.3.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "express-rate-limit": "^7.1.5",
+    "handlebars": "^4.7.8",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.1",
+    "morgan": "^1.10.0",
+    "winston": "^3.11.0",
+    "winston-daily-rotate-file": "^4.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
